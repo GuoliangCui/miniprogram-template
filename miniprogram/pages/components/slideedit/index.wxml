@@ -1,0 +1,11 @@
+<!--pages/components/slideedit/index.wxml-->
+<movable-area id="slide-con" class="slide-con"  style="height:{{height}}rpx">
+  <movable-view class="slide" x="{{moveX}}" style="width:{{width+optionWidth}}rpx" direction="horizontal" out-of-bounds="true" catchtouchend="onToucheEnd" catchtouchstart="onTouchStart" damping="40" inertia >
+    <view class="left" style="width:{{width}}rpx;height:{{height}}rpx"> 
+      <slot name="left"></slot>
+    </view>
+    <view class="right" style="width:{{optionWidth}}rpx;height:{{height}}rpx">
+      <slot name="right"></slot>
+    </view>
+  </movable-view>
+</movable-area>

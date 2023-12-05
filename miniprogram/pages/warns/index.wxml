@@ -1,0 +1,13 @@
+<!--pages/warns/index.wxml-->
+<view class="body">
+  <view class="warns-con">
+
+      <!-- <view class="warn">
+          <view class="type">绿</view>
+          <view class="info">
+            <view class="title">呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱</view>
+            <view class="summary">嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎</view>
+          </view>
+      </view> -->
+  </view>
+</view>

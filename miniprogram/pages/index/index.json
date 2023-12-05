@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "slideedit":"../components/slideedit",
+    "popup":"../components/popup",
+    "popcall":"../components/popcall"
+
+  }
+}

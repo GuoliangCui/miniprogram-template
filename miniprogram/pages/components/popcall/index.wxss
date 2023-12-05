@@ -1,0 +1,60 @@
+/* pages/components/popcall/index.wxss */
+.mask-con {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  z-index: 666;
+  transition-property: opacity;
+  transition-duration: 200ms;
+  opacity: 0;
+}
+.mask-con.show {
+  height: 100%;
+  opacity: 1;
+}
+.mask-con > .pop-con {
+  background-color: #fff;
+  border-radius: 10rpx;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width: 630rpx;
+  height: 600rpx;
+  margin-left: -315rpx;
+  margin-top: -300rpx;
+  box-sizing: border-box;
+  transition-property: opacity, top;
+  transition-duration: 200ms;
+  transition-delay: 100ms;
+  opacity: 0;
+}
+.mask-con > .pop-con > .title {
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  font-size: 500;
+  border-bottom: 2rpx solid #E6ECF2;
+  position: relative;
+}
+.mask-con > .pop-con > .title > text {
+  position: absolute;
+  display: block;
+  height: 44rpx;
+  line-height: 44rpx;
+  width: 44rpx;
+  text-align: center;
+  right: 40rpx;
+  top: 30rpx;
+}
+.mask-con > .pop-con > .main {
+  padding: 30rpx;
+}
+.mask-con > .pop-con.show {
+  opacity: 1;
+  top: 40%;
+}

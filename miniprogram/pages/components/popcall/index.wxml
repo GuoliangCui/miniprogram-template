@@ -1,0 +1,11 @@
+<!--pages/components/popcall/index.wxml-->
+<view bindtap="close" class="mask-con {{show?'show':''}}">
+  <view catchtap="onCatchTap" class="pop-con {{show?'show':''}}">
+    <view class="title">提示
+    <text bindtap="close">X</text>
+    </view>
+    <view class="main">
+        内容
+    </view>
+  </view>
+</view>

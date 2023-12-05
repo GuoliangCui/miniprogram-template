@@ -1,0 +1,15 @@
+<!--pages/components/popup/index.wxml-->
+<view bindtap="close" class="mask-con {{show?'show':''}}">
+  <view catchtap="onCatchTap" class="pop-con {{show?'show':''}}">
+    <view class="title">{{title}}
+    <text bindtap="close">X</text>
+    </view>
+    <view class="main">
+      <slot></slot>
+    </view>
+    <view class="footer">
+      <button class="btn-normal" bindtap="onCancelTap">取消</button>
+      <button class="btn-primary" bindtap="onConfirmTap">确定</button>
+    </view>
+  </view>
+</view>

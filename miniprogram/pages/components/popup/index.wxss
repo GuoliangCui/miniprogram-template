@@ -1,0 +1,61 @@
+/* pages/components/popup/index.wxss */
+.mask-con {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  z-index: 666;
+  transition-property: opacity;
+  transition-duration: 200ms;
+  opacity: 0;
+}
+.mask-con.show {
+  height: 100%;
+  opacity: 1;
+}
+.mask-con > .pop-con {
+  background-color: #fff;
+  border-radius: 20rpx;
+  position: absolute;
+  left: 20rpx;
+  right: 20rpx;
+  bottom: -400rpx;
+  box-sizing: border-box;
+  padding: 40rpx 50rpx;
+  transition-property: opacity, bottom;
+  transition-duration: 200ms;
+  transition-delay: 100ms;
+  opacity: 0;
+}
+.mask-con > .pop-con > .title {
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 36rpx;
+  font-weight: 500rpx;
+}
+.mask-con > .pop-con > .title > text {
+  float: right;
+  display: inline-block;
+  height: 40rpx;
+  line-height: 40rpx;
+  width: 40rpx;
+  text-align: center;
+}
+.mask-con > .pop-con > .main {
+  margin: 30rpx 0;
+}
+.mask-con > .pop-con > .footer {
+  display: flex;
+  padding-top: 20rpx;
+}
+.mask-con > .pop-con > .footer > button {
+  flex: 1;
+}
+.mask-con > .pop-con.show {
+  bottom: 20rpx;
+  opacity: 1;
+}

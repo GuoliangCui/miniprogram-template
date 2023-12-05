@@ -1,0 +1,65 @@
+/**index.wxss**/
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 30rpx;
+  background-color: #f1f1f1;
+}
+.list > .item {
+  flex: 0 0 335rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.list > .item .info {
+  height: 170rpx;
+  display: flex;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.list > .item .info > .name {
+  flex: 1;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+}
+.list > .item .info > .name > .title {
+  font-size: 28rpx;
+}
+.list > .item .info > .name > .floor {
+  font-size: 36rpx;
+  margin-top: 30rpx;
+  display: flex;
+}
+.list > .item .info > .type {
+  flex: 0 0 auto;
+}
+.list > .item .info > .type > view {
+  width: 66rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #5072B9;
+  color: #fff;
+}
+.list > .item .option {
+  margin-left: 20rpx;
+  background-color: #ED1E36;
+  border-radius: 10rpx;
+  height: 170rpx;
+}
+.date-con {
+  height: 500rpx;
+}
+.date-con .mask {
+  border: 1px solid red;
+}
+.date-con .item {
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+}

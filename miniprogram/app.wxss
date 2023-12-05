@@ -1,0 +1,31 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.btn-normal {
+  color: #919599;
+  background-color: #F0F3F8;
+  height: 90rpx;
+  display: block;
+  width: 100%;
+  font-size: 30rpx;
+  font-weight: 400;
+  padding: 0rpx 24rpx;
+  border-radius: 20rpx;
+  line-height: 90rpx;
+}
+.btn-primary {
+  color: #919599;
+  background-color: #F0F3F8;
+  height: 90rpx;
+  display: block;
+  width: 100%;
+  font-size: 30rpx;
+  font-weight: 400;
+  padding: 0rpx 24rpx;
+  border-radius: 20rpx;
+  line-height: 90rpx;
+  background-color: #ED1A33;
+  color: #fff;
+}

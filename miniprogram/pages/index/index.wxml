@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="list">
+    <!-- <view class="item" class="item" wx:for="{{moveList}}">
+    <slideedit height="170" option-width="92" >
+      <view class="info" slot="left">
+        <view class="name">
+          <view class="title">张三李四</view>
+          <view class="floor">3>>5</view>
+        </view>
+        <view class="type">
+          <view>T</view>
+        </view>
+      </view>
+      <view class="option" slot="right">
+        <view>edit</view>
+        <view>del</view>
+      </view>
+    </slideedit>
+   </view> -->
+
+  </view>
+  <view>
+  测试
+    <!-- <picker-view class="date-con" bindchange="onPickerChange" value="{{dateValue}}">
+      <picker-view-column wx:if="{{type=='date'||type=='datetime'}}">
+        <view class="item" wx:for="{{years}}">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column wx:if="{{type=='date'||type=='datetime'}}">
+        <view class="item" wx:for="{{months}}">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column wx:if="{{type=='date'||type=='datetime'}}">
+        <view class="item" wx:for="{{days}}">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column wx:if="{{type=='time'||type=='datetime'}}">
+        <view class="item" wx:for="{{hours}}">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column wx:if="{{type=='time'||type=='datetime'}}">
+        <view class="item" wx:for="{{minutes}}">{{item}}</view>
+      </picker-view-column>
+    </picker-view> -->
+  </view>
+</view>
